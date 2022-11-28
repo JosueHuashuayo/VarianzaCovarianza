@@ -6,7 +6,9 @@ public class Main {
          Y y = new Y();
 
          x.foo(new classB());
-         y.foo(new classA());
+         y.foo(new classB());
         
+         A a = y.foo(new classB());
+         C c = y.foo(new classB());
     }
 }
