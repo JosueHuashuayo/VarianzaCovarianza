@@ -6,7 +6,7 @@ public class Main {
          Y y = new Y();
 
          x.foo(new classB());
-         y.foo(new classC());
+         y.foo(new classA());
         
     }
 }
